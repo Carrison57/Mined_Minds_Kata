@@ -1,23 +1,8 @@
-number = 1
-100.times do
-	puts number
-	number = number + 1
+Array.new(1..100)
+	
+	remainder n % 3
 
-
-if number % 3 == 0
-	puts "Mined"
-end	
-
-if number % 5 == 0
-	puts "Minds"
-end
-
-
-
-
-
-
-end
-
-
+	if remainder == 0
+		puts "Mined"
+	end
 
