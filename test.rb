@@ -4,7 +4,7 @@ require_relative "Mined_minds_numbers.rb"
 class Test_Mined_minds_ < Minitest::Test
 	
 	def test_1_returns_1
-		assert_equal(1,mined_minds(1))
+		assert_equal(1, mined_minds(1))
 	end
 
 	def test_2_returns_2
@@ -20,7 +20,7 @@ class Test_Mined_minds_ < Minitest::Test
 	end
 
 	def test_5_returns_mined_minds
-		assert_equal("Mined_Minds",mined_minds(15))
+		assert_equal("Mined Minds",mined_minds(15))
 	end
 
 end
