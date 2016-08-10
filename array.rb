@@ -5,7 +5,6 @@ def create_mined_minds_array
 	array = []
 
 	for number in 1..100 do
-		array.push(number)
 		
 		if number % 3 == 0 && number % 5 == 0
 			array.push("Mined Minds")
@@ -14,6 +13,8 @@ def create_mined_minds_array
 		elsif number % 5 == 0
 			array.push("Minds")
 		end
+
+		array.push(number)
 	
 	end
 
