@@ -16,14 +16,10 @@ def create_mined_minds_array
 			array.push(number)
 		end
 
-			
 	end
 
 	print array
 
-
-
-	
 end
 
 create_mined_minds_array
