@@ -12,10 +12,11 @@ def create_mined_minds_array
 			array.push("Mined")
 		elsif number % 5 == 0
 			array.push("Minds")
+		else 
+			array.push(number)
 		end
 
-		array.push(number)
-	
+			
 	end
 
 	print array
