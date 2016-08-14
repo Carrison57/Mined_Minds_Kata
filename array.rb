@@ -1,6 +1,6 @@
-def create_mined_minds_array
+def create_mined_minds_array()
 
-	number = 1
+	#number = 1
 
 	array = []
 
@@ -18,7 +18,9 @@ def create_mined_minds_array
 
 	end
 
-	print array
+	return array
+
+	#print array
 
 end
 
