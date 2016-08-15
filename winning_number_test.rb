@@ -4,9 +4,18 @@ require_relative "winning_number.rb"
 class Test_Array < Minitest::Test
 
 	def test_winning_numbers
-		winning_numbers = ["1234", "2567", "1984", "3756", "4756", "5113", "6363", "7218", "8765", "9246"]
-		my_number = "3756"
-		assert_equal(true, close_but_no_cigar(winning_numbers, my_number))
+		one_number_off = close_but_no_cigar()
+		assert_equal(false, one_number_off[0])
 	end
+
+	# def test_winning_numbers
+	# 	one_number_off = close_but_no_cigar()
+	# 	assert_equal(false, one_number_off("2567"))
+	# end
+
+	# def test_winning_numbers
+	# 	one_number_off = close_but_no_cigar()
+	# 	assert_equal(false, one_number_off("3756"))
+	# end
 
 end
